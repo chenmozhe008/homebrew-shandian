@@ -1,9 +1,9 @@
 cask "shandian" do
   arch arm: "AppleSilicon", intel: "Intel"
 
-  version "0.20.6"
-  sha256 arm:   "c5d95c5a22fefc5802674bc724f2439ff03db3d84cc85fd44b7f731704f5342e",
-         intel: "e6db992b0b9bab3d44d748019a819c64b86d39d005816f168e2bc58d443394cb"
+  version "0.21.2"
+  sha256 arm:   "c386e2730610af6ca0a5b2489ab0a52cfe13c288ff75fe36144b67d545e9098f",
+         intel: "8c2f498ede76a0cc6e178e99ccca1fb7bd134b50e33712925683a4f650428d32"
 
   url "https://github.com/chenmozhe008/shandian-download/releases/download/v#{version}/Shandian-#{version}-#{arch}.zip"
   name "闪电全能下载"
