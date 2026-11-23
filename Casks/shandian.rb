@@ -1,14 +1,14 @@
 cask "shandian" do
   arch arm: "AppleSilicon", intel: "Intel"
 
-  version "0.22.2"
-  sha256 arm:   "368766e474d98f51c5db92c2d7b6925541645bfdd43c02fed78fd28d341e1074",
-         intel: "3dfdc523af556fd7d75b59c4094efa2fde7742bdea3dddc379c5b6003e38bc46"
+  version "0.22.6"
+  sha256 arm:   "3b8cb3918b12dbdcfbdaac540c828872378e01708af4ad48b40c1fb1e9a52c5a",
+         intel: "61fc8a6756f6c6f45b45f85390c51da0938c1d0fedbcf4afbb95090324915255"
 
   url "https://github.com/chenmozhe008/shandian-download/releases/download/v#{version}/Shandian-#{version}-#{arch}.zip"
   name "闪电全能下载"
   name "Shandian Download Manager"
-  desc "Native macOS download manager with bulk media and Baidu Netdisk downloads"
+  desc "Native macOS downloader for Feishu and Qingque Docs media, Baidu shares, and more"
   homepage "https://github.com/chenmozhe008/shandian-download"
 
   livecheck do
