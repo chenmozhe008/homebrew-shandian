@@ -1,14 +1,14 @@
 cask "shandian" do
   arch arm: "AppleSilicon", intel: "Intel"
 
-  version "0.21.2"
-  sha256 arm:   "c386e2730610af6ca0a5b2489ab0a52cfe13c288ff75fe36144b67d545e9098f",
-         intel: "8c2f498ede76a0cc6e178e99ccca1fb7bd134b50e33712925683a4f650428d32"
+  version "0.22.2"
+  sha256 arm:   "368766e474d98f51c5db92c2d7b6925541645bfdd43c02fed78fd28d341e1074",
+         intel: "3dfdc523af556fd7d75b59c4094efa2fde7742bdea3dddc379c5b6003e38bc46"
 
   url "https://github.com/chenmozhe008/shandian-download/releases/download/v#{version}/Shandian-#{version}-#{arch}.zip"
   name "闪电全能下载"
   name "Shandian Download Manager"
-  desc "Native download manager that switches routes when a task is stuck at 0%"
+  desc "Native macOS download manager with bulk media and Baidu Netdisk downloads"
   homepage "https://github.com/chenmozhe008/shandian-download"
 
   livecheck do
